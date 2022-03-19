@@ -1,8 +1,8 @@
-  Repositório do Desafio  de Projeto Sobre Git/Github da Dio
+# Repositório do Desafio  de Projeto Sobre Git/Github da Dio
 
- Repositório Criado Para o Desafio  de Projeto
+ ***Repositório Criado Para o Desafio  de Projeto***
 
- Links Úteis:
+* Links Úteis:
 
 https://www.markdownguide.org/basic-syntax/
 
@@ -10,24 +10,18 @@ https://comandosgit.github.io/#administration
 
 https://code.visualstudio.com/
 
-
 <h1>O que é o Git?
 
 <h4> O Git é um sistema de versionamento de código distribuído, ou seja, é um sistema de controle de versão de arquivos. É um softwere livre e muito utilizado no desenvolvimento de softwere onde diversas pessoas estão contribuindo simultaneamente podendo criar ou editar arquivos, ele gerencia alterações feitas e guarda um histórico. Isso é importante pois, se houver algum problema poderá ser desfeita as alterações e voltar para a versão que estava estável. Existem site que provêm a hospedagem gratuita de códigos fonte para repositório Git, um deles é o GitHub.
 
-
-
 <h1>O que é o GitHub?
 
-<h4>O GitHub é uma plataforma de hospedagem de códigos-fonte e arquivos com controle de versão usando o Git. Ele permite que os programadores, utilitários ou qualquer usuário cadastrado na plataforma contribuam em projetos privados e/ou Open Source de qualquer lugar do mundo.
+<h4>O  GitHub  é uma plataforma de hospedagem de códigos-fonte e arquivos com controle de versão usando o Git. Ele permite que os programadores, utilitários ou qualquer usuário cadastrado na plataforma contribuam em projetos privados e/ou Open Source de qualquer lugar do mundo.
 Portanto, o GitHub é uma plataforma onde você pode armazenar seus projetos e disponibilizá-los para outras pessoas verem. O GitHub suporta apenas o Git.
-
-
 
 <h1>Instalando e Configurando Git:
 
-
-<h4>* Windows: 
+<h4>* Windows:
 
 Baixe o arquivo exe do instalador a partir da página do GitHub e execute-o:  [https://msysgit.github.com]
 A primeira coisa que você deve fazer quando instalar o Git é definir o seu nome de usuário e endereço de e-mail. Isso é importante porque todos os commits no Git utilizam essas informações, e está imutavelmente anexado nos commits que você realiza:
@@ -37,7 +31,6 @@ git config --global user.name "John Doe"
 git config --global user.email johndoe@example.com
 
  Você só precisará fazer isso uma vez caso passe a opção --global, pois o Git sempre usará essa informação para qualquer coisa que você faça nesse sistema. Caso você queira sobrepor estas com um nome ou endereço de e-mail diferentes para projetos específicos, você pode executar o comando sem a opção --global quando estiver no próprio projeto.
-
 
 * <h4> Mac:
 
@@ -56,9 +49,8 @@ ou Ou se você estiver em uma distribuição baseada no Debian, como o Ubuntu, u
 
 apt-get install git
 
-
 * <h1> Git Help
-Se você precisar de ajuda ao usar Git, existem três maneiras de obter a ajuda para qualquer um dos comandos Git:
+  Se você precisar de ajuda ao usar Git, existem três maneiras de obter a ajuda para qualquer um dos comandos Git:
 
 git help {comando}
 
@@ -66,35 +58,29 @@ git {comando} --help
 
 man git- {comando}
 
-
-* <h1> Criando Um  Projeto:
+* <h1> Criando Seu  Projeto:
 
 Você pode obter um projeto Git utilizando duas formas principais. A primeira faz uso de um projeto ou diretório existente e o importa para o Git. A segunda clona um repositório Git existente a partir de outro servidor.
-
 
 Inicializando um Repositório em um Diretório Existente
 Caso você esteja iniciando o monitoramento de um projeto existente com Git, você precisa ir para o diretório do projeto e digitar
 
 * Git Init comando ``git init`` 
-Isso cria um novo subdiretório chamado .git que contem todos os arquivos necessários de seu repositório — um esqueleto de repositório Git. Neste ponto, nada em seu projeto é monitorado.
-
+  Isso cria um novo subdiretório chamado .git que contem todos os arquivos necessários de seu repositório — um esqueleto de repositório Git. Neste ponto, nada em seu projeto é monitorado.
 
 Primeira versão
 Caso você queira começar a controlar o versionamento dos arquivos existentes (diferente de um diretório vazio), você provavelmente deve começar a monitorar esses arquivos e fazer um commit inicial. Você pode realizar isso com poucos comandos
 
 touch .gitignore
 
-
 git add .gitignore
-
 
 git commit -m "Versão inicial do projeto"
 
-
  Neste ponto, você tem um repositório Git com arquivos monitorados e um commit inicial.
 
- * Git clone: comando `` git clone`` 
-Clonando um Repositório Existente
+* Git clone: comando `` git clone`` 
+  Clonando um Repositório Existente
 
 Você clona um repositório com git clone [url]. Por exemplo, caso você queria clonar a biblioteca Git do Ruby chamada Grit, você pode fazê-lo da seguinte forma:
 
@@ -103,9 +89,6 @@ Se você entrar no novo diretório grit, você verá todos os arquivos do projet
 
 git clone git://github.com/schacon/grit.git mygrit
 Este comando faz exatamente a mesma coisa que o anterior, mas o diretório alvo será chamado mygrit.
-
-
-
 
 <h1>Comando Básicos do Git:
 
@@ -119,12 +102,10 @@ Para passar a monitorar um novo arquivo, use o comando git add. Para monitorar o
 
 git add README
 
-
 Se você rodar o comando git status, você pode ver que o seu arquivo README agora está sendo monitorado. Os arquivos monitorados serão os que faram parte do commit.
 
-
 * git status
-Verificando o Status
+  Verificando o Status
 
 A principal ferramenta utilizada para determinar quais arquivos estão em quais estados é o comando:
 
@@ -132,26 +113,26 @@ git status
 O comando lhe mostra em qual branch você se encontra. Vamos dizer que você adicione um novo arquivo em seu projeto, um simples arquivo README. Caso o arquivo não exista e você execute git status, você verá o arquivo não monitorado dessa forma:
 
 ##### On branch master
+
 #### Untracked files:
 
-
 #### (use "git add {file}..."
+
  to include in what will be committed)
 
  README
 nothing added to commit but untracked files present (use "git add" to track)
 
-
 Você pode ver que o seu novo arquivo README não está sendo monitorado, pois está listado sob o cabeçalho "Untracked files" na saída do comando status. Não monitorado significa basicamente que o Git está vendo um arquivo que não existia na última captura (commit); o Git não vai incluí-lo nas suas capturas de commit até que você o diga explicitamente que assim o faça. Ele faz isso para que você não inclua acidentalmente arquivos binários gerados, ou outros arquivos que você não têm a intenção de incluir. Digamos, que você queira incluir o arquivo README, portanto vamos começar a monitorar este arquivo.
 
 * git diff
-Verificando Mudanças
+  Verificando Mudanças
 
 Se o comando git status for muito vago — você quer saber exatamente o que você alterou, não apenas quais arquivos foram alterados — você pode utilizar o comando.
 
 * git diff
-Apesar do comando git status responder essas duas perguntas de maneira geral, o git diff mostra as linhas exatas que foram adicionadas e removidas — o patch, por assim dizer.
-Se você quer ver o que selecionou que irá no seu próximo commit, pode utilizar:
+  Apesar do comando git status responder essas duas perguntas de maneira geral, o git diff mostra as linhas exatas que foram adicionadas e removidas — o patch, por assim dizer.
+  Se você quer ver o que selecionou que irá no seu próximo commit, pode utilizar:
 
 git diff --cached
 git commit
@@ -170,7 +151,7 @@ git commit -m "Mensagem" --amend
 O amend é destrutivo e só deve ser utilizado antes do commit ter sido enviado ao servidor remoto.
 
 * git reset
-Desfazendo Coisas
+  Desfazendo Coisas
 
 Em qualquer fase, você pode querer desfazer alguma coisa. Aqui, veremos algumas ferramentas básicas para desfazer modificações que você fez. Cuidado, porque você não pode desfazer algumas dessas mudanças. Essa é uma das poucas áreas no Git onde você pode perder algum trabalho se fizer errado.
 Para voltar ao último commit:
@@ -190,9 +171,8 @@ E para aplicar:
 
 git merge {hash}
 
-
 * git rm
-Removendo Arquivos
+  Removendo Arquivos
 
 Para remover um arquivo do Git, você tem que removê-lo dos arquivos que estão sendo monitorados (mais precisamente, removê-lo da sua área de seleção) e então fazer o commit. O comando git rm faz isso e também remove o arquivo do seu diretório para você não ver ele como arquivo não monitorado (untracked file) na próxima vez.
 
@@ -200,7 +180,7 @@ git rm -f {arquivo}
 Se você modificou o arquivo e já o adicionou na área de seleção, você deve forçar a remoção com a opção -f. Essa é uma funcionalidade de segurança para prevenir remoções acidentais de dados que ainda não foram gravados em um snapshot e não podem ser recuperados do Git.
 
 * git mv
-Movendo Arquivos
+  Movendo Arquivos
 
 Diferente de muitos sistemas VCS, o Git não monitora explicitamente arquivos movidos.
 É um pouco confuso que o Git tenha um comando mv. Se você quiser renomear um arquivo no Git, você pode fazer isso com
@@ -215,12 +195,9 @@ git rm README.txt
 git add README
 O Git descobre que o arquivo foi renomeado implicitamente, então ele não se importa se você renomeou por este caminho ou com o comando mv. A única diferença real é que o comando mv é mais conveniente, executa três passos de uma vez. O mais importante, você pode usar qualquer ferramenta para renomear um arquivo, e usar add/rm depois, antes de consolidar com o commit.
 
-
 * Branch e Merge
 
-
 git branch
-
 
 Branch Básico
 
@@ -253,19 +230,18 @@ Resolvendo conflitos
 Se você quer usar uma ferramenta gráfica para resolver esses problemas, você pode executar o seguinte comando que abre uma ferramenta visual de merge adequada e percorre os conflitos.
 
 * git mergetool
-Arquivos Temporários
-git mergetool cria * .orig arquivos de backup ao resolver fusões. Estes são seguros para remover uma vez que um arquivo foi fundida e sua git mergetool sessão foi concluída.
+  Arquivos Temporários
+  git mergetool cria * .orig arquivos de backup ao resolver fusões. Estes são seguros para remover uma vez que um arquivo foi fundida e sua git mergetool sessão foi concluída.
 
 * git log
-Histórico de Commits
+  Histórico de Commits
 
 Depois que você tiver criado vários commits, ou se clonou um repositório com um histórico de commits existente, você provavelmente vai querer ver o que aconteceu. A ferramente mais básica e poderosa para fazer isso é o comando:
 
 git log
 
-
 * git stash
-Fazendo Stash
+  Fazendo Stash
 
 Muitas vezes, quando você está trabalhando em uma parte do seu projeto, as coisas estão em um estado confuso e você quer mudar de branch por um tempo para trabalhar em outra coisa. O problema é, você não quer fazer o commit de um trabalho incompleto somente para voltar a ele mais tarde. A resposta para esse problema é o comando git stash.
 Você quer mudar de branch, mas não quer fazer o commit do que você ainda está trabalhando; você irá fazer o stash das modificações. Para fazer um novo stash na sua pilha, execute:
@@ -278,7 +254,7 @@ git stash list
 Você pode aplicar aquele que acabou de fazer o stash com o comando mostrado na saída de ajuda do comando stash original: git stash apply. Se você quer aplicar um dos stashes mais antigos, você pode especificá-lo, assim: git stash apply stash@{2}. Se você não especificar um stash, Git assume que é o stash mais recente e tenta aplicá-lo.
 
 * git tag
-Tagging
+  Tagging
 
 Git tem a habilidade de criar tags em pontos específicos na história do código como pontos importantes. Geralmente as pessoas usam esta funcionalidade para marcar pontos de release (v1.0, e por aí vai). Nesta seção, você aprenderá como listar as tags disponíveis, como criar novas tags, e quais são os tipos diferentes de tags.
 Para listar as tags execute:
@@ -289,16 +265,16 @@ Para criar uma tag basta executar o seguinte comando, caso não queira criar a t
 git tag -a v1.4 -m 'my version 1.4'
 
 # Compartilhar e Atualizar Projetos
+
 * git fetch
-Fazendo o Fetch
+  Fazendo o Fetch
 
 Para pegar dados dos seus projetos remotos, você pode executar:
 
 * git fetch origin
-Esse comando vai até o projeto remoto e pega todos os dados que você ainda não tem. Depois de fazer isso, você deve ter referências para todos os branches desse remoto, onde você pode fazer o merge ou inspecionar a qualquer momento.
+  Esse comando vai até o projeto remoto e pega todos os dados que você ainda não tem. Depois de fazer isso, você deve ter referências para todos os branches desse remoto, onde você pode fazer o merge ou inspecionar a qualquer momento.
 
 * git pull
-
 
 Atualizando local
 
@@ -309,9 +285,715 @@ git push
 Empurrando seus commits
 
 * O git push
-
- é o comando em que você transfere commits a partir do seu repositório local para um repositório remoto. É a contrapartida do git fetch, que busca importações e comprometem as agências locais, utilizando o git push as exportações comprometem as filiais remotas. Para fazer isso, você executa git push [nome_do_repositório_remoto] [nome_da_sua_branch_local], que vai tentar fazer que o [nome_do_repositório_remoto] receba a sua branch [nome_da_sua_branch_local] contendo todos seus commits com alterações. Por exemplo:
+  
+  é o comando em que você transfere commits a partir do seu repositório local para um repositório remoto. É a contrapartida do git fetch, que busca importações e comprometem as agências locais, utilizando o git push as exportações comprometem as filiais remotas. Para fazer isso, você executa git push [nome_do_repositório_remoto] [nome_da_sua_branch_local], que vai tentar fazer que o [nome_do_repositório_remoto] receba a sua branch [nome_da_sua_branch_local] contendo todos seus commits com alterações. Por exemplo:
 
 git push origin develop
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
