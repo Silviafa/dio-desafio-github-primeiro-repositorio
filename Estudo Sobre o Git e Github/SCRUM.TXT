@@ -1,4 +1,5 @@
-Scrum - Um framework ágil
+Aula de SCRUM
+SCRUM - Um framework ágil
 
 Gestão de Projetos Tradicional                                                                                                                                 X                                   Ágil
 Tradicional (waterfall), só permite que o projeto avance quando uma base está inteiramente completa                        Ágil: software construído por partes (incremental) e cada parte 
