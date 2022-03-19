@@ -1,0 +1,115 @@
+Scrum - Um framework ágil
+
+Gestão de Projetos Tradicional                                                                                                                                 X                                   Ágil
+Tradicional (waterfall), só permite que o projeto avance quando uma base está inteiramente completa                        Ágil: software construído por partes (incremental) e cada parte 
+
+Backlog – é usado no sentido de “lista de tarefas”, de acordo com as prioridades do produto                                       executa-se  em um ciclo (interativo). Equipes pequenas e multidisciplinares
+que será construído ou realizado, é o mapa do produto, criado pelo Product Owner,
+e precisa ser refinado ao longo da Sprint pelo Time, com especificações de cada                                                           escopo definido ao longo do projeto. (mínimo produto viável).
+história e estimativa de tempo para cada uma delas.
+
+
+Daily Scrum – reunião diária com os participantes da Sprint. 
+
+
+Épico – conjunto de história, às vezes a necessidade do cliente precisa ser dividida em várias
+histórias, de forma a serem mensuradas em Sprints. 
+
+Product Owner – é o dono do produto, esse participante é o responsável
+por descrever o produto, criar o Backlog, está próximo do cliente, tem a visão
+do que a Equipe irá produzir, escreve a história ou o épico em conjunto com o
+Scrum Master, defini as prioridades do produto, ou seja, o que será construído
+ou realizado primeiro na Sprint. 
+
+
+Scrum Master – é o líder do Scrum, é o facilitador das reuniões
+diárias, responsável por realizar o Backlog, por tirar todos os obstáculos que possam vir a impedir
+o andamento da Sprint, por medir a produtividade e tempo do Time e auxiliar o Product Owner a escrever
+a história ou o épico. 
+
+
+Sprint ou time box – em inglês, significa ir a toda velocidade por um breve período de tempo, em especial
+nas corridas de curta distância, no Scrum a Sprint, está relacionado ao tempo estimado para conclusão de 
+uma parte do produto, não necessariamente de todo o produto, tem uma duração curta, de 1 a 4semanas, na sprint
+também é medida a velocidadecom que o time trabalha, e segundo Sutherland há uma hiperprodutividade de
+300%, 400% até 800% e uma vez medida a velocidade da equipe é possível repetir esse
+feito várias vezes (por isso ficou conhecido como ágil). 
+
+
+Time – equipes multifuncionais, autônomas e capacitadas, com um propósito maior que o
+individual; multidisciplinar, ter todas as habilidades necessárias para completar uma
+Sprint.
+Quem faz o que e de onde veio esse termo
+
+
+Dessa forma, a cada etapa do projeto é preciso parar, verificar, questionar como e
+de que forma está sendo desenvolvido e se é possível melhorar alguma etapa, sempre
+com foco no objetivo e no cliente. 
+
+
+produtos que de fato funcionem em vez de documentação dizendo como deveriam funcionar; 
+
+colaboração com o cliente em vez de negociação com ele; e 
+
+responder às mudanças em vez de seguir um plano. 
+
+
+Para implementar o Scrum
+
+Primeiro é necessário ter um objetivo, algo que precise ser planejado e executado em um período curto de tempo, ou seja, em uma Sprint, o objetivo pode ser qualquer coisa, uma viagem, festa de casamento, obra residencial, desenvolvimento de software (contexto onde o Scrum surgiu), é possível utilizá-lo, inclusive, na área educacional para ensinar alguma disciplina, como é exemplificado no livro.  
+
+
+Com o objetivo definido, é hora de escolher o Product Ower (dono do produto), o Time, que precisa ter 7 pessoas, esse é o número ideal, porém ainda podem ser acrescentados mais 2 integrantes ou retirado 2, segundo o autor quanto mais pessoas no projeto, mais demorado, caro e ineficaz ele se torna. Outra característica do Time é o fato de que a equipe precisa ser multidisciplinar e multifuncional, ter autonomia para tomada de decisões, independente do cargo que ocupe na organização, foco no resultado, e entender que uma etapa só pode ser começada, quando a etapa anterior for concluída, testada, validada e estiver pronta para o uso do cliente; depois é hora de determinar quem será o Scrum Master (líder do Scrum), criar e ordenar, de acordo com as prioridades o Backlog e o planejamento da Sprint. 
+
+
+As reuniões diárias, ou Daily Scrum, ocorrem com os integrantes olhando para um quadro, que está dividido em três colunas com os dizeres To do, Doing, Done (A fazer, Fazendo, Feito).
+
+
+Com post-its e caneta, o dono do projeto, ou Product Owner, decide o que precisa ser feito e quais são as prioridades do projeto, enquanto o líder, ou Scrum Master, lidera as reuniões com a sprint definida.
+
+
+As atividades são escritas nos post-its e colocadas na primeira coluna do quadro “A fazer”. O time discute como as atividades serão executadas e conforme o trabalho avança, durante as próximas reuniões os postits/atividades vão caminhando para as colunas seguintes. É assim que na coluna “Feito” estará somente o produto já testado e pronto para uso do cliente. 
+
+
+Algumas características da reunião são: 
+
+todos os integrantes permanecem de pé, já que a ideia é que termine rápido;
+
+o tempo de duração é 15 minutos, caso ultrapasse esse tempo está sendo feita de
+forma errada;
+
+sempre no mesmo horário, é sugerido que ocorra no início do dia; e
+
+o Scrum Master precisa fazer as três perguntas:
+
+		a. O que você fez ontem para ajudar a equipe a concluir o sprint?
+
+		b. O que você fará hoje para ajudar a equipe a concluir o sprint? 
+
+		c. Que obstáculos estão atrapalhando a equipe? 
+
+
+O Scrum possui algumas cerimônias, são elas: 
+
+
+– Planejamento – a equipe, o Scrum Master e o Product Owner definem o tempo em que a Sprint será realizada e conversam sobre o entendimento da(s) história(s).  
+
+
+– Daily Scrum (reunião diária) – liderado pelo Scrum Master, tem o intuito de dar transparência ao projeto e promover o diálogo entre o Time, identificando quais são os obstáculos para alcançar o objetivo, lembrando que a remoção dos obstáculos é responsabilidade do Scrum Master; 
+
+
+– Revisão – essa etapa é a prestação de contas, ocorre no final da Sprint, o Time apresenta o que foi entregue e de que forma. 
+
+
+– Retrospectiva – é feita quando a Sprint é finalizada, todos os envolvidos participam, assim como na Revisão, porém nessa etapa todos opinam sobre o que funcionou bem, o que poderia ter sido melhor e quais são as lições aprendidas; segundo o autor nessa fase é preciso ter um Time maduro, porque não é uma questão de achar culpados e sim processos ruins que podem ser melhorados.
+
+
+
+
+
+
+ 
+
+
+
+
