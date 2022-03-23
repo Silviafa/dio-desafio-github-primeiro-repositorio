@@ -1,0 +1,464 @@
+O que é .Net? 
+* .Net - É uma plataforma de desenvolvimentop com várias ferramentas, linguagens de programação e bibliotecas que permitem o desenvolvimento de diversos tipos de aplicações.
+* Asp.Net - Framework que estende .Net para a criação de web apps.(focado para web)
+
+Suporte .Net :  .Netfoundation
+
+Sobre .Net
+*Gratuita e de softwere livre
+*Plataforma cruzada (consegue desenvolver para diversas tipos de sistemas operacionais e arquiteturas.
+*Tipos de aplicação: 
+-web
+-Mobile
+-Desktop
+-Microservices
+-Cloud
+-Machine Learning
+-Jogos
+
+*.Net Standard
+- Especificação das APIs são comuns às implementações .Net (versões e atualizações)
+ 
+* Suporte ao Desenvolvedor .Net
+
+-Bibliotecas para desenvolvimento e execução de aplicações .Net
+*SDK
+*Runtime
+
+*Nuget: Gerenciador de pacotes
+
+*Acesse a dados
+- ORM  Entity Framework Core
+- LINQ Consulta integrada à linguagem
+
+*Ambientes CI/CD
+-GitHub Actions
+-Azure Devops
+-Cake/Fake
+
+*Gerenciamento Automático de memória
+
+
+*Sobre ASP.NET E ASP.NET CORE
+*Aplicações Web
+-páginas web
+-rest apis
+-microservices
+-hubs
+*Processamento de restriçoes
+*Criação de páginas da web de forma dinâmica
+*Bibliotecas para web patterns (MVC)
+*Sistema de autenticação
+*Extensões para produtividade
+
+ Desenvolvimento Multiplataforma Com .Net: Contexto e Conceitos:
+Introdução ao Ecossistema .Net & Documentação
+
+*A plataforma .Net é gratuita
+Open-source e gratuito (para ser open-source é preciso)
+-Distribuição livre
+-Acesso ao código-fonte
+-Não discriminação contra áreas de atuação
+-Distribuição da licença
+-Licença não específica a um produto
+-Licença não restritiva a outros programas
+-Licença neutra em relação à tecnologia
+
+* O QUE É .NET FRAMEWORK?
+-Um ambiente de desenvolvimento e execução focado no windows
+-Comommon language runtime (Gerenciamento de execução dos apps) + .Net Class Library (Biblioteca para reutilização de códigos)
+
+
+*CARACTERÍSTICAS PRINCIPAIS:
+-Gerenciamento de memória
+-Sistema de tipos comum -> Tipos definidos pelo próprio framework
+-Grande e específicas bibliotecas de classes utilitárias (ASP.NET, ADO.NET, WCF, WPF)
+-Interoperabilidade entre linguagens
+-Compatibilidade de versões
+-Uso do .NET Standard
+
+*SOBRE .NET CORE E .NET
+-> Plataforma cruzada: Linux, Windows e Mac Os
+-> Produzir um produto com base de código única
+-> Open Source -> Mit e Apache 2
+-> .Net = .Net Core + .Net Framework + Xamarin + Mono
+-> Aquisição facilitada a partir do NUGET
+-> Modular e com melhor desempenho
+-> Ciclos de lançamentos mais rápidos
+
+*SOBRE ASP.NET CORE
+-> Construção de aplicações web, IOT apps e aplicações backend para mobile 
+-> Funcionalidades para construção de aplicações com renderização no servidor
+
+°Uso de Padrão MVC (Model-View-Controller)
+-> Model Binding
+-> Mapeamentoautomático de dados de requisições HTTP para parâmetros de métodos
+de ação.
+-> Model Validation: validação automática no lado do cliente e servidor.
+
+1. Model: Representa o estado da aplicação, encapsulado lógica de negócio.
+2. View: Responsável por apresentar dados através de interface.
+3. Controller: Componentes que lidam com a intreração do usuário a partir da View e trabalham 
+com a moldel para apresentar respostas para o usuário.
+
+-> Razor Pages e Razor Markup
+.Modelo baseado em páginas -> simplificado
+.Interface e lógica de negócios são separados, mas dentro da página.
+.Sintaxe de marcação para inserir código baseado em .Net em páginas
+ Web = Razor markup + C# + HTML
+
+-> Tag Helpers
+ .Permite que código do servidor participe da criação e renderização 
+de elementos HTML em arquivos Razor
+ .Experiência de desenvolvimento com HTML mais amigável
+intellSense no ambiente para sintaxe
+ .Manutenção de código usando somente informação do servidor
+
+-> Blazor
+ . Framework para construir aplicativos do lado do cliente, que são executados direto
+ no navegador com webAssembly(WASM) usando C#
+Uso da interoperabilidade com javascript para lidar com manipulação da DOM e chamados de API
+
+-Integração de templates como: Angular, React e Bootstrap.
+
+*SOBRE XAMORIN
+-> Plataforma para desenvolivemnto de aplicações mobile modernas com alto desempenho
+-> Baseado no projeto Mono, implementação open source baseada no .NET Framework.
+-> Criação de interface nativa em cada plataforma (Android, IOS, MacOs e Windows apps) e
+ código de lógica compartilhado.(multiplataforma)
+->Possui todos os benefícios já citados da plataforma .NET
+
+° XAMARIN.FORMS (linguagem parecida com html)
+. Framework open source para desenvolvimento de interfaces para o usuário
+. Aplicativos Android, IOS e Windows com única base de código
+. Criação de UI com XAML e lógica com C# (xaml: extensible application markup language)
+. Uso de biblioteca Xamarin.Essentials
+     . informações de dispositivos
+     . sistemas de arquivos
+     . acelerômetro
+     . bloqueio de tela...
+
+°XAMARIN.ANDROID
+*Compilação de C# para Li (linguagem intermediária)
+que por sua vez é compilado para a assembly nativo no momento da execução.
+* Execução no ambiente Mono + ART
+
+*O QUE É ESCREVER UM BOM CÓDIGO:
+° Ser confiável
+° Ser sustentável
+° Ser eficiente
+EFICIENCIA E DESEMPENHO X CONFIABILIDADE E FACILIDADE (MENOS É MAIS)
+
+° PORQUE DEVEMOS PADRONIZAR?
+-> Melhorar comunicação entre equipe
+-> Facilita a manutenção de códigos
+-> Utilizar documentação e boas práticas de codificação, como clean code
+
+*ENTENDER O CLEAN CODE: é conjunto de boas práticas na escritas de softwere para obtenção
+de maior legibilidade de código. -> clean code: livro indispensável para DEVs
+
+1)Siga sempre as convenções adotadas pela equipe!
+2)KISS: Keep It Stupid Simple (mantenha isso estupidamente simples)
+3)Devolva o código mais limpo do que você encontrou
+4)Busque sempre entender e solucionar os problemas a partir de sua raiz.
+
+
+*REGRAS PARA ENTENDIMENTO DE CÓDIGO:
+1)Seja consistente na escrita de todod código (comoçou de um jeito, termine do mesmo jeito)
+2)Utilize variáveis concisas e que realmente passem a informação necessária.
+3)Observe a necessidade de criação de objetos de valor ao invés do uso de tipos primitivos.
+4)Evite dependências lógicas
+5)Evite condicionais negativas
+
+*REGRAS PARA NOMEAÇÃO:
+1) Escolher nomes descritivos para classes, variáveis e metodos.
+2) Para variáveis semelhantes, faça uma distinção identificável
+3) Utilizar nomes de fácil leitura e busca
+4) Utilize constantes para guardar strings a serem comparadas
+5) Não use prefixos ou caracteres especiais
+
+ 
+*REGRAS PARA MÉTODOS
+1)Metódos não devem ser grandes e devem possuir somente um objetivo/responsabilidade
+2)Métodos devem possuir nomes descritivos
+3)Evite a exigência de muitos parâmetros dentro do método
+4)Evite que uma função altere valores de outra classe sem ser a propria classe
+5)Evitar a utilização de flags desnecessárias
+
+*REGRAS PARA COMENTÁRIOS
+1)Evite comentários desnecessários, torne seu código autoexplicativo
+2)Não seja redundante
+3)Não deixe código desnecessário comentado
+4)Comentários podem ser úteis para falar sobre a intenção de uma classe ou método
+5)Comentários podem explanar regras mais complexas e alertas sobre consequências mais sérias
+
+*REGRAS PARA ESTRUTURAÇÃO DE CÓDIGO
+1)Declare variáveis próximas de seu uso
+2)Agrupe métodos similares
+3)Declare funções de cima pra baixo
+4)Mantenha poucas e curtas linhas
+5)Use espaçamentos e identação corretamente
+
+*CONVENÇÕES DE NOMECLATURA
+
+1)Camel Case: Escrever palavras ou frases compostas considerando a primeira letra da primeira 
+palavra sempre minúscula as subsequentes maiúsculas. Ex: valorDoDesconto, nomeCompleto.
+2)Pascal Case: Escrever palavras ou frase compostas considerando a primeira letra de cada
+palavra maiúscula. Ex: ValorDoDesconto, NomeCompleto,TotalSalario...
+
+
+*QUAL O PADRÃO PARA C#?
+1)Não há uma regra obrigatória, porém grande maioria dos desenvolvedores convenciona da seguinte
+forma:
+->Nomes de classes e métodos : Pascal Case
+->Nomes de variáveis e parâmetros: Camel Case
+2)No caso de interfaces recomenda-se o uso do prefixo "I"
+Exemplo: IEntidade, IRepositorCliente
+
+*RECOMENDAÇÕES DA MICROSOFT
+1)Uso do Pascal Case
+->Classes
+->Interfaces
+->Membros de tipos públicos
+2)Uso com CamelCase
+->Campos privados e internos
+-> deve-se ainda usá-los com prefixo "-"
+
+
+
+*FERRAMENTAS E LINGUAGENS PARA DESENVOLVIMENTO E UTILITÁRIOS
+
+*FERRAMENTAS PARA DESENVOLVIMENTO:
+
+-> IDE: Ambiente de desenvolvimento integrado (VISUAL STUDIO)
+*Criado e suportado pela Microsoft
+*Executado em Windows
+*Desenvolvimento de qualquer tipo de aplicação .NET
+*3 versões:
+ .Comunity
+ .Professional
+ .Entreprise
+->Versão para Mac voltado para desenvolvimento com .NET core, Xamarin e Unity
+
+-> Editor de código:  (VISUAL STUDIO CODE)
+*Editor gratuito emais leve com extensões que permitem o desenvolvimento rápido em qualquer
+linguagem.
+*Construído em cima da versão open source "Code OSS" :
+->microsoft/vscode:Visual Sutudio Code (github.com)
+*Multiplataforma
+*Utilização de extensões de produtividade e suporte
+*Customizável
+
+->Suíte de desenvolvimento integrada (OmniSharp experiência completa para .NET)
+*Experiência no desenvolvimento com .NET em diversos editores : 
+OmniSharp-.NET ande IntelliSense on any plataform with your editor of choice
+*Pltaforma Cruzada
+.Atom
+.Brackets
+.Sublime Text
+.Emacs
+.Vim
+.Visual Studio Code
+
+->Pacote de extensão (IONIDE)
+*Extensão para VSCode que dá completo suporte para desenvolvimento com F#-> IONIDE
+*Plataforma cruzada e open source
+
+-> IDE: Ambiente de desenvolvimento integrado (JetBrains Rider)
+*Plataforma Cruzada, porém com licensa paga
+*Desenvolvimento multiplataforma com .NET,
+ASP.NET Core, Xamorin, Unity, etc...
+*Uso de tecnologia ReShaper para fornecer experiência semelhante às funcionalidades do 
+Visual Studio -> All Developer Tools and Products by JetBrains
+
+->Console (.NET Core CLI)
+*Alternativa para desenvolvimento via console
+*Bem útil para se trabalhar com Visual Studio Code
+*Incluída no SDK do .NET
+
+*LINGUAGENS SUPORTADAS PARA DESENVOLVIMENTO PELA PLATAFORMA .NET:
+
+*C# -> c#|Modern, open-source programming language for .NET (microsof.com)
+.Mais popular
+.Desenvolvimento de qualquer tipo de aplicação, para execução em qualquer plataforma.
+.Open source
+.Baseada C/C++, com influências bem fortes também do JAVA
+.Orientada a objetos
+(Abstração do problema, transformando em objetos as entidades do "mundo real"
+
+*F# -> f#softwere foudation (fsharp.org)
+.Linguagem open-source para escrita de código sucinto, robusto e com ótimo desempenho
+.Com suporte em Windows, Linux e macOS
+.Mais utilizado para ciência de dados e aprendizagem de máquina
+.Permite paradigma funcional, imperativo e orientado a objetos
+(Enfatiza o uso de funçoes)
+(Expressões em vez de instruções)
+(Valores imutáveis em variáveis)
+(Programação declarativa sobre imperativa)
+
+*VISUAL BASIC -> index | TIOBE - The Solftwere Quality Company
+. Aperfeiçoamento do BASIC, uma linguagem dirigida a eventos
+. Ainda consta como parte das linguagens mais utilizadas no mercado
+. Linguagem derivadas:
+->VBScript: linguagem default no ASP (Active Server Pages)
+->Visual Basic .NET: Versão atual sem compatibilidade com versões antigas
+ e orientadas a objetos.
+->Visual Basic for Applications (VBA): útil para criação de macros
+
+*Outras Linguagens Suportadas pela plataforma .NET:
+-> Javascript
+-> Typescript
+-> Python
+->SQL
+->C++
+
+*.NET OU .NET FRAMEWORK: Qual escolher para minha aplicação?
+-> USE O .NET quando:
+. Necessitar de plataforma cruzada
+. Há direcionamento de microsserviços
+  ->Azure Service Fabric
+  ->Azure App Service
+. Uso do Docker
+  ->Hospedagem em infraestrutura Linux ou Windows
+  ->Azure Kurbenetes Service
+. Alto desempenho e sistemas escalonáveis
+. Necessita de versões .NET diferentes por aplicação
+
+-> USE O .NET FRAMEWORK QUANDO:
+. Não houver necessidade de migração para .NET
+. Bibliotecas de terceiros ou pacotes NUGET não são disponíveis para .NET
+. Necessidade de tecnologia não disponíveis para .NET
+  -> Asp.NET WebForms
+  -> ASP.NET Web Pages não estão incluídos no ASP.NET Core
+  -> Implementação do lado servidor para WCF
+  -> Workflow Foundation, Workflow Service e Workflow Data Services
+. Quando o projeto não suporta determinada linguagem para o caso de visual Basic e F#
+
+* O QUE USAR PARA CADA TIPO DE APLICAÇÃO:
+
+-> Aplicação Desktop:
+
+.Universal Windows Apps
+.Windows Presentation Foundation (WPF)
+.Windows Forms
+. Xamarin.MAC
+
+
+->Aplicações Baseadas em Containers:
+*AZURE: Plataforma de nuvem completa que pode hospedar aplicativos e simplificar o 
+desenvolvimento de novos aplicativos
+. Para aplicações monolíticas -> Temos o Azure App Service
+. Aplicações com arquitetura em camadas -> Temos Azure Kurbenetes Service (AKS)
+. Microserviços: AKS ou Azure Web Apps para Containers
+. Funçoes Serveless e event handlers: Azure Functions
+. Processamento Batch de larga escala: Azure Batch
+*OUTROS SERVIÇOS AZURE PARA DESENVOLVEDORES:
+*Azure SQL: Versão em nuvem do SQL Server
+*Azure Cosmos DB: Banco de dados NoSQL com escalabilidade e de API
+compatível comMongoDB
+*Azure Blob Storage: Armazenamento em nuvem de arquivos, prezando pela escalabilidade, 
+redundância de dados e disponibilidade.
+*Azure Key Vaut: Permite o armazenamento em nuvem de segredos de aplicações,
+como connection strings e e chaves de APIs.
+*Cognitive Services: Coleção de serviços em nuvem que permite a adição de 
+Inteligência Artificial para aplicões, com funcionalidades como reconhecimento de falar, 
+compreensão de linguagens e detecção de anomalias.
+
+
+*APRENDIZAGEM DE MÁQUINA COM .NET
+->ML.NET
+. Framework de aprendizagem de máquina de plataforma cruzada e open source
+. Criação de modelos de aprendizagem de máquina a partir de interface gráfica (Model Builder)
+ou por meio do ML.NET CLI
+. Integração com outros frameworks famosos como TensorFlow, ONNX, INFER.NET
+->Tipos de predições com ML.NET
+. Classificação e categorização de objetos
+. Predição de valores contínuos
+. Deteção de anomalias
+. Recomendações
+. Análise de sentimento
+
+*Internet das Coisas IoT)
+-> Bibliotecas específicas para integração de aplicações com hardware, especializado
+como sensores, dispositivos LCD, conversores analógico-digital
+. System.Device.Gpio
+. IoT.Device.Bindings
+->Suportado em muitas versões do Linux que suportam ARM/ARM64 E Windows IoT Core
+-> .NET NanoFramework
+  .Plataforma gratuita e opens-source que permite o desenvolvimento de aplicações
+com C# acoplados a dispositivos
+  . É suportado pela .NET Foundation
+  . Utilização do Visual Studio
+-> Meadow
+  .Platafor IoT e full-stack que permite construir soluções focadas para indústria de forma
+segura e escalável
+  . Integrado com Azure
+  . Uso no Visual Studio ou VSCode
+
+
+*INSTALAÇÃO DO .NET*  (https://dotnet.microsoft.com/en-us/download)
+
+*DIFERENÇAS ENTRE .NET FRAMEWORK, CORE E 5
+-> .NET Framework 
+  . Ano de 2002
+  .Web
+  .Windows
+
+-> .NET Core
+  .Net Core
+  .Ano de  2016
+  .Windws
+  .Linux
+  .MacOS 
+
+-> .NET Standard
+  . .NET Standard são bibliotecas de classe base
+    ( uma convenção de que se usaria a mesma "linguagem" entre eles).
+
+-> .NET 5 (Versão melhorada de ambas)
+  . Ano de 2020
+  .Plataforma unificada
+
+
+* CONCEITO FRAMEWORK E RUNTIME
+
+  -> Framework: ("caixa de ferramentas") pronta para usar, ou seja, componentes.
+
+
+  -> Runtime: Faz a conversão, a compilação para linguagem binária,
+     linguagem de máquina para que se execute o código e obtenha o resultado esperado.
+
+
+* CLI DO .NET
+  -> CLI (Interface de Linha de Comando)  EX: cmd
+     ou seja, processa os comandos que serão enviados para um programa de computador 
+     na forma de linhas de texto. (processa o texto puro e simples como um comando)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

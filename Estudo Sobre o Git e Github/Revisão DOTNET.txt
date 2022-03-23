@@ -1,0 +1,88 @@
+   DOT NET .NET
+*  *O QUE É O .NET?
+
+A microsoft iniciou a criação de uma nova plataforma chamada .NET na década de 90 que era a 
+idea inicial de se  ter diversas linguagens funcionando em um mesmo ambiente de 
+desenvolvimento que ela denominou de Visual Studio. Então tinha-se diversas linguagens cada
+uma com seu compilador, mas todas convergindo seu código para uma linguagem intermediária,
+sendo interpretada para uma linguagem de máquina. Evoluiu para cloud, open source e começa 
+a atuar em um nover framework que é o .NET Core, a partir de 2020 apenas o .NET Core continua
+a ser evoluído com novo nome apenas .NET 5, .NET 6 e assim sucessivamente.
+
+O .NET é uma infraestrutura para desenvolvimento criada pela Microsoft
+Uma aplicação .NET é desenvolvida para e roda em uma das seguintes implementações do .NET:
+-> .NET Core
+-> .NET Framework
+-> Mono
+-> Universal Windows Plataform (UWP)
+E o .NET Standard é um acordo que faz com que tenham a mesma base em um ambiente de execução,
+(conversem entre si) unificando todas as implentações acima.
+
+*COMO USAR?
+
+Cada implentação inclui um ou mais .NET Runtimes (ambiente de execução):
+-> .NET Core: CoreCLR e CoreRT
+-> .NET Framework: CLR
+-> Mono: Mono Runtime
+-> UWP: .NET Native
+
+*Como?
+
+Atualmente a Microsoft desenvolve e suporta 3 linguagens para .NET :
+-> c# (linguagem principal, orientação a objetos)
+-> F# (orientação mais funcioanal)
+-> V# (mais antigo)
+
+
+*Onde>
+->Desktop wpf
+->Web 
+->Cloud
+->Mobile
+->Gaming
+->IoT
+->AI
+->Visual Studio
+
+
+*Conhecendo a CLI do.NET (comandos iniciais)
+no propt cmd:
+dotnet --version (versão atual do .NET)
+dotnet --hep (comandos)
+dotnet new --help (comandos do novo projeto)
+
+
+* Criando uma aplicação console (aplicação executada via algum terminal ex: cmd)
+Comando: dotnet new --h
+mensagem retornada: templates console application  Comando: console
+Comando criando console: dotnet new console -n (nome)
+comando: explorer . (vair abrir a pasta criada)
+Comando: code . (abre a pasta dentro do vscode)
+
+
+
+
+
+
+
+
+
+
+Livre. Plataforma cruzada. Código aberto. Suportado.
+
+.NET é gratuito . Não há taxas ou custos de licenciamento, inclusive para uso comercial.
+
+O .NET é de código aberto e multiplataforma, com ferramentas de desenvolvimento gratuitas 
+para Windows, Linux e macOS.
+
+Com o .NET, você pode usar vários idiomas, editores e bibliotecas para criar para Web, 
+dispositivos móveis, desktops, jogos e IoT.
+
+
+
+*ASP.NET
+Livre. Plataforma cruzada. Código aberto.
+Uma estrutura para criar aplicativos e serviços da Web com .NET e C#.
+
+
+
